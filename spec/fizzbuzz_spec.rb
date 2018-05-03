@@ -24,4 +24,8 @@ describe "#fizzbuzz" do
     it "should return 'Buzz' when passed 10" do
         expect(fizzbuzz(10)).to eq("Buzz") 
     end
+
+    it "should return 'FizzBuzz' when passed 15" do
+        expect(fizzbuzz(15)).to eq("FizzBuzz") 
+    end
 end
